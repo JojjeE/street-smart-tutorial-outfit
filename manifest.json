@@ -1,0 +1,21 @@
+{
+    "$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
+    "id": "MyName.StreetSmart",
+    "name": "Street Smart",
+    "description": "A Street Smart outfit for 47.",
+    "authors": ["My Name"],
+    "frameworkVersion": "2.33.22",
+    "version": "1.0.0",
+    "contentFolders": ["content"],
+    "blobsFolders": ["blobs"],
+    "localisedLines": {
+		"00FA39746422A77A": "UI_TOKEN_OUTFIT_HERO_STREET_SMART_NAME",
+		"0094E475D38D6641": "UI_TOKEN_OUTFIT_HERO_STREET_SMART_DESC"
+	},
+	"localisation": {
+		"english": {
+			"UI_TOKEN_OUTFIT_HERO_STREET_SMART_NAME": "Street Smart Suit",
+			"UI_TOKEN_OUTFIT_HERO_STREET_SMART_DESC": "A comfortable and savvy suit for when you're out on the town."
+		}
+	}
+}
