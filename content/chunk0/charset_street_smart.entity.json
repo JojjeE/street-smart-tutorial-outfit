@@ -25,8 +25,8 @@
 		"2a83ce034db70324": {
 			"parent": null,
 			"name": "CHARSET_Agent47_Street_Smart",
-			"factory": "004470A9E6A7722D",
-			"blueprint": "00E21A11EC782D9E",
+			"factory": "[assembly:/_pro/characters/templates/_sourcefiles/outfit.template?/charset_base.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/_sourcefiles/outfit.template?/charset_base.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_aCharacters": {
 					"type": "TArray<SEntityTemplateReference>",

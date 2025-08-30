@@ -249,8 +249,8 @@
 				{
 					"parent": "cafe00b29dcac7e3",
 					"name": "Keyword_Prof_Class_Default",
-					"factory": "007A51A2AFEC0D1A",
-					"blueprint": "00B0282A41C1CF2E",
+					"factory": "[assembly:/_pro/design/gamecore/keywords/keywordgenericprofessionclasses.template?/keyword_prof_class_default.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordgenericprofessionclasses.template?/keyword_prof_class_default.entitytemplate].pc_entityblueprint",
 					"properties": {
 						"m_aHolders": {
 							"type": "TArray<SEntityTemplateReference>",
