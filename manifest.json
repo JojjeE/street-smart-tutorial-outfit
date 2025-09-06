@@ -9,13 +9,29 @@
     "contentFolders": ["content"],
     "blobsFolders": ["blobs"],
     "localisedLines": {
-		"00FA39746422A77A": "UI_TOKEN_OUTFIT_HERO_STREET_SMART_NAME",
-		"0094E475D38D6641": "UI_TOKEN_OUTFIT_HERO_STREET_SMART_DESC"
-	},
-	"localisation": {
-		"english": {
-			"UI_TOKEN_OUTFIT_HERO_STREET_SMART_NAME": "Street Smart Suit",
-			"UI_TOKEN_OUTFIT_HERO_STREET_SMART_DESC": "A comfortable and savvy suit for when you're out on the town."
-		}
-	}
+        "00FA39746422A77A": "UI_TOKEN_OUTFIT_HERO_STREET_SMART_NAME",
+        "0094E475D38D6641": "UI_TOKEN_OUTFIT_HERO_STREET_SMART_DESC"
+    },
+    "localisation": {
+        "english": {
+            "UI_TOKEN_OUTFIT_HERO_STREET_SMART_NAME": "Street Smart Suit",
+            "UI_TOKEN_OUTFIT_HERO_STREET_SMART_DESC": "A comfortable and savvy suit for when you're out on the town."
+        }
+    },
+    "options": [
+        {
+            "group": "Gloves",
+            "name": "No gloves",
+            "type": "select",
+            "enabledByDefault": true,
+            "tooltip": "Don't use gloves."
+        },
+        {
+            "group": "Gloves",
+            "name": "Leather gloves",
+            "type": "select",
+            "tooltip": "Leather gloves.",
+            "contentFolders": ["patches/gloves/leather"]
+        }
+    ]
 }
