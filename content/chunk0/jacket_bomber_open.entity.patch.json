@@ -1,0 +1,71 @@
+{
+	"tempHash": "00ED542C09DFC9F4",
+	"tbluHash": "002917D44D22B873",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"4bcc2cbe47581fe1",
+				{
+					"AddProperty": [
+						"ConstantVector1D_06_Value_op",
+						{
+							"type": "IRenderMaterialEntity.EModifierOperation",
+							"value": "eReplace"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"4bcc2cbe47581fe1",
+				{
+					"AddProperty": [
+						"ConstantVector1D_14_Value_op",
+						{
+							"type": "IRenderMaterialEntity.EModifierOperation",
+							"value": "eReplace"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"0caf6338f4c66a3d",
+				{
+					"AddInputCopyConnection": [
+						"ConstantVector1D_06_Value",
+						"ConstantVector1D_06_Value",
+						"4bcc2cbe47581fe1"
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"0caf6338f4c66a3d",
+				{
+					"AddInputCopyConnection": [
+						"ConstantVector1D_14_Value",
+						"ConstantVector1D_14_Value",
+						"4bcc2cbe47581fe1"
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"0caf6338f4c66a3d",
+				{
+					"AddInputCopyConnection": [
+						"ConstantVector1D_01_Value",
+						"ConstantVector1D_01_Value",
+						"4bcc2cbe47581fe1"
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

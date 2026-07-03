@@ -251,6 +251,7 @@
 				"HitmanWetness": {
 					"T": [
 						"cafe7713b2d0cc7f",
+						"cafe12a9bd56da15",
 						"cafea848f0bc31e6",
 						"cafecc20e8c149df",
 						"cafe714de5ad0557"
@@ -264,9 +265,9 @@
 			"factory": "[modules:/zmathlerp.class].pc_entitytype",
 			"blueprint": "[modules:/zmathlerp.class].pc_entityblueprint",
 			"properties": {
-				"m_A": { "type": "float32", "value": 1.0 },
+				"m_A": { "type": "float32", "value": 0.0 },
 				"m_fT": { "type": "float32", "value": 0.0 },
-				"m_B": { "type": "float32", "value": 2.0 }
+				"m_B": { "type": "float32", "value": 0.4 }
 			},
 			"events": {
 				"Lerp": {
@@ -285,8 +286,9 @@
 			"factory": "[modules:/zmathlerp.class].pc_entitytype",
 			"blueprint": "[modules:/zmathlerp.class].pc_entityblueprint",
 			"properties": {
+				"m_A": { "type": "float32", "value": 0 },
 				"m_fT": { "type": "float32", "value": 0.0 },
-				"m_B": { "type": "float32", "value": 0.30000001192092896 }
+				"m_B": { "type": "float32", "value": 0.6 }
 			},
 			"events": {
 				"Lerp": {
@@ -305,9 +307,9 @@
 			"factory": "[modules:/zmathlerp.class].pc_entitytype",
 			"blueprint": "[modules:/zmathlerp.class].pc_entityblueprint",
 			"properties": {
-				"m_B": { "type": "float32", "value": 0.4000000059604645 },
 				"m_A": { "type": "float32", "value": 0.0 },
-				"m_fT": { "type": "float32", "value": 0.0 }
+				"m_fT": { "type": "float32", "value": 0.0 },
+				"m_B": { "type": "float32", "value": 0.4 }
 			},
 			"events": {
 				"Lerp": {
@@ -321,17 +323,33 @@
 			"factory": "[modules:/zmathlerp.class].pc_entitytype",
 			"blueprint": "[modules:/zmathlerp.class].pc_entityblueprint",
 			"properties": {
+				"m_A": { "type": "float32", "value": 0.5 },
 				"m_fT": { "type": "float32", "value": 0.0 },
-				"m_B": { "type": "float32", "value": 0.20000000298023224 }
+				"m_B": { "type": "float32", "value": 0.2 }
 			},
 			"events": {
 				"Lerp": {
 					"ConstantVector1D_01_Value": [
 						"cafe02781d02817f",
-						"cafed241dea84926",
 						"cafe4d9b8001fd08",
 						"cafefc34f7b88cc5"
 					]
+				}
+			}
+		},
+		"cafe12a9bd56da15": {
+			"parent": "cafe704aaa4b21c5",
+			"name": "Lerp jacket albedo",
+			"factory": "[modules:/zmathlerp.class].pc_entitytype",
+			"blueprint": "[modules:/zmathlerp.class].pc_entityblueprint",
+			"properties": {
+				"m_A": { "type": "float32", "value": 2 },
+				"m_fT": { "type": "float32", "value": 0.0 },
+				"m_B": { "type": "float32", "value": 1 }
+			},
+			"events": {
+				"Lerp": {
+					"ConstantVector1D_01_Value": ["cafed241dea84926"]
 				}
 			}
 		}

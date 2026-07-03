@@ -1,0 +1,57 @@
+{
+	"tempHash": "00468CE157B575D3",
+	"tbluHash": "00189B6B9F6568F8",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"ecd31deec793f2a9",
+				{
+					"AddProperty": [
+						"ConstantVector1D_06_Value_op",
+						{
+							"type": "IRenderMaterialEntity.EModifierOperation",
+							"value": "eReplace"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"be43ce3ee53a8db9",
+				{
+					"AddInputCopyConnection": [
+						"ConstantVector1D_06_Value",
+						"ConstantVector1D_06_Value",
+						"ecd31deec793f2a9"
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"be43ce3ee53a8db9",
+				{
+					"AddInputCopyConnection": [
+						"ConstantVector1D_14_Value",
+						"ConstantVector1D_14_Value",
+						"ecd31deec793f2a9"
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"be43ce3ee53a8db9",
+				{
+					"AddInputCopyConnection": [
+						"ConstantVector1D_01_Value",
+						"ConstantVector1D_01_Value",
+						"ecd31deec793f2a9"
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
